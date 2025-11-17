@@ -8,8 +8,8 @@
     body {
       font-family: 'Times New Roman';
       text-align: center;
-      background-color: #eaac8b;
-      color: #a50c33;
+      background-color: #FFC0CB;
+      color: #FF1493;
       margin: 0;
       padding: 0;
       overflow: hidden;
@@ -86,9 +86,9 @@
   <!-- Slide 2: Funny Memory -->
   <div class="slide">
     <h1>See?</h1>
-    <p>Hmm, our first date went pretty good right? didn't think you'd still actually like me though hehe
+    <p>Hmm, our first date went pretty well right? didn't think you'd still actually like me though hehe
     <br> 
-    you were looking BHAI HEBBI CUTE, can't even elaborate on ts </p>
+    however you were looking BHAI HEBBI CUTE, can't even elaborate on ts </p>
     <img src="pictwo.jpg" alt="Funny Memory">
     <br>
     <button class="button" onclick="nextSlide()">Next</button>
@@ -96,10 +96,9 @@
 
   <!-- Slide 3: Heartfelt Message -->
   <div class="slide">
-    <h1>You Mean Everything to Me Re</h1>
-    <p>Infact, i think our fate ends with us, 
-    since no matter how many arguments we went through, 
-    our love for eachother did remain the same right?</p>
+    <h1>Well i know all of this seems too good to be true, but here we are...
+    healing eachother.</h1>
+    <p> i am here re, dw about me leaving someday</p>
     <img src="picone.jpg" alt="Our Photo">
     <br>
     <button class="button" onclick="nextSlide()">Next</button>
@@ -107,11 +106,11 @@
 
   <!-- Slide 4: Valentine's Question -->
   <div class="slide">
-    <h1>So Jaan, Will You Be My Valentine? 💌</h1>
-    <p>I know I cannot do this in person right now, but i will someday for sure.
+    <h1>So sir </h1>
+    <p>(idk i just wanted to propose hehe)
     <br> 
-    So, Mr Rastogi, are you willing to claim me as your wife this valentine?</p>
-    <button class="button" onclick="celebrate()">Yes, I'll be your Valentine!</button>
+    apni ki amr proposal tah accept korben? biye korben? :3</p>
+    <button class="button" onclick="celebrate()">Yes!!</button>
     <button id="noButton" class="button" onmouseover="moveNoButton()">No</button>
   </div>
 
